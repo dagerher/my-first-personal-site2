@@ -1,0 +1,195 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dagmara Herter</title>
+
+  <link rel="stylesheet" href="{% static 'personalsite/css/styles.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento|Warnes&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="">Dagmara Herter</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- top container -->
+
+  <div class="top-container" style="background-image: url({% static 'personalsite/img/tlo.jpg' %});">
+    <h1 class="iam">I'm Dagmara.</h1>
+    <h2 class="career">Full-stack Developer</h2>
+    <img class="daga-photo" src="{% static 'personalsite/img/daga-foto.svg' %}" alt="daga">
+  </div>
+
+  <!-- main -->
+  <section class="light-section">
+    <div class="middle-container main">
+      <div id="profile">
+        <h2>Profile.</h2>
+        <p>Extremely motivated to constantly develop my skills and grow proffesionally.<br>
+          I am 3rd year Bioinformatics student, who is looking for an entry level position with an exciting company, new experience and opportunity to learn.
+          <br> I am searching for an entry level position with an exciting company that wants to attract hard-working and friendly people.<p>
+      </div>
+
+  </section>
+  <section class="colored-section blue-section container-fluid">
+    <div id="education">
+      <h2 class="color-header">Education.</h2>
+      <!-- <img class="line-image" src="line.svg" alt="line-img"> -->
+      <p class="in-blue"><strong>Poznan University of Technology</strong><br>
+        <em>October 2017 - present</em><br>
+        Bioinformatics, 3rd year</p>
+    </div>
+  </section>
+
+  <section class="light-section container-fluid">
+    <div id="experience">
+      <h2>Experience.</h2>
+      <div class="experience-row">
+
+        <h4 style="color: #99366c;"><strong>Collegium Biologicum Poznan<br>
+            apprenticeship in Computational Biology Lab</strong></h4>
+        <p class="date"><strong>April 2019 - present</strong></p>
+        <p>Generally working with computational approaches to predict
+          bacteriophage–host relationships;
+          writing Python scripts and using programs to identify the
+          potential hosts by scrutinizing distance between a phage’s
+          tetranucleotide usage profile and the profiles of all bacteria
+          in ncbi database. </p>
+      </div>
+      <div class="experience-row">
+        <h4 style="color: #1D5E86"><strong>Elite Gym Poznan, Graphic designer & Webmaster</strong></h4>
+        <p class="date"><strong>May 2019 - present</strong></p>
+        <p>Overall in charge of the elitegym.pl, alelekkie.pl,
+          eliteproacademy.pl websites, being familiar with e-commerce software,
+          creating infographics, posters, rollups, IT support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="colored-section pink-section container-fluid">
+     <div id="skills">
+      <h2 class="color-header">My skills and interests.</h2>
+      <!--<div class="skill-row">
+        <img class="python-image" src="{% static 'personalsite/img/python.svg' %}" alt="python-img">
+        <h3 class="color-header">Python</h3>
+        <p>I have been programming since I graduaded high school. I have worked intensively with
+        quite a few languages, such as C, C++, C#, Java, Perl, R...
+        But any of them didn't take my heart. <br>However I see that Python has competitor im my mind and I am of course referring to JavaScipt.
+       </p>
+      </div>
+      <div class="skill-row">
+        <img class="web-design-image" src="{% static 'personalsite/img/design.svg' %}" alt="design-img">
+        <h3 class="color-header">Graphic Design</h3>
+        <p>Job has found me a few months ago. I had no idea how to create graphics or websites.
+          <br>I decided to try (because I am very ambitious) and, as a result, I am still creating infographics for gym owner and carry on his websites. <br>I really like design stuff.</p>
+      </div>
+    </div> -->
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid skill-row">
+          <img class="skill-image" src="{% static 'personalsite/img/python.svg' %}" alt="python-img">
+          <h3 class="color-header">Python</h3>
+          <p>I have been programming since I graduaded high school. I have worked intensively with
+          quite a few languages, such as C, C++, C#, Java, Perl, R...
+          But any of them didn't take my heart. <br>However I see that Python has competitor im my mind and I am of course referring to JavaScipt.
+         </p>
+        </div>
+        <div class="carousel-item container-fluid skill-row">
+          <img class="skill-image" src="{% static 'personalsite/img/design.svg' %}" alt="design-img">
+          <h3 class="color-header">Graphic Design</h3>
+          <p>Job has found me a few months ago. I had no idea how to create graphics or websites.
+            <br>I decided to try (because I am very ambitious) and, as a result, I am still creating infographics for gym owner and carry on his websites. <br>I really like design stuff.</p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="light-section container-fluid">
+    <h2>I also know and still developing...</h2>
+    <br><br>
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Front-End</h3>
+        <p>HTML5<br>CSS3<br>Bootstrap 4</p>
+      </div>
+      <div class="col-lg-4">
+        <h3>Back-End</h3>
+        <p>Django<br>Python<br>C, C++, C#<br>MySQL</p>
+      </div>
+      <div class="col-lg-4">
+        <h3>Other</h3>
+        <p>GIT<br>Linux command line<br>Affinity Designer<br>WordPress</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="colored-section blue-section container-fluid">
+    <h2 class="color-header">In progress...</h2>
+    <div>
+      <p class="in-blue">JavaScript ES6<br>Node.js<br>EJS<br>VueJS<br>ReactJS<br>AngularJS<br>MongoDB<br>Mongoose</p>
+    </div>
+  </section>
+
+  <section class="light-section container-fluid">
+    <div id="contact" class="contact-me main">
+      <h2>Get In Touch.</h2>
+      <p>If you want to give me a chance and work with me, write me an email.</p>
+      <a class="MyButton" href="mailto:ddagmara.herter@gmail.com">CONTACT ME</a>
+    </div>
+  </section>
+
+
+  <div class="bottom-container colored-section pink-section">
+    <a class="footer-link" href="https://www.linkedin.com/in/dagmara-herter-6ab9891a2/">LinkedIn</a>
+    <a class="footer-link" href="https://www.facebook.com/dagmara.herter/">Facebook</a>
+    <a class="footer-link" href="https://github.com/dagerher/">Github</a>
+    <p>© 2020 Dagmara Herter.</p>
+  </div>
+
+
+</body>
+
+</html>

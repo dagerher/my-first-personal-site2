@@ -1,0 +1,163 @@
+h2 {
+  color: #322929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #792120;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+.footer-link{
+  color: #f0cde2;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* colored sections */
+
+.colored-section {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.pink-section {
+  background-color: #99366c;
+}
+.blue-section {
+  background-color: #1D5E86;
+}
+.date {
+  color: black;
+}
+.light-section {
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.iam {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #f0cde2;
+  font-size: 7rem;
+}
+
+.career {
+  color: #e5e8ea;
+}
+
+.daga-photo {
+  width: 60%;
+}
+
+#education {
+  text-align: center;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  margin: 0;
+  text-align: center;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+}
+
+.experience-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+}
+
+ .color-header {
+   color: #fff;
+ }
+
+.in-blue {
+  color: #efdcfb;
+}
+
+.skill-image {
+  width: 25%;
+  padding-bottom: 20px;
+}
+
+
+.MyButton {
+	box-shadow:inset 0px 1px 6px -5px #efdcfb;
+	background:linear-gradient(to bottom, #99366c 5%, #efdcfb 100%);
+	background-color:#99366c;
+	border-radius:35px;
+	border:2px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 35px;
+	text-decoration:none;
+	text-shadow:0px 4px 6px #9752cc;
+}
+.MyButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #99366c 100%);
+	background-color:#bc80ea;
+  color:#ffffff;
+}
+.MyButton:active {
+	position:relative;
+	top:1px;
+}
